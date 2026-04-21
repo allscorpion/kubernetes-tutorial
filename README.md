@@ -11,4 +11,8 @@ You can get the application running by running the following commands
 - kubectl get pods
     - use the pod name for the following cmd e.g. synergychat-web-f7b9f96dd-ppqpc
 - kubectl port-forward PODNAME 8080:8080
+
+
+## Useful commands
 - kubectl proxy
+- kubectl get deployment synergychat-web -o yaml > web-deployment.yaml
