@@ -14,5 +14,6 @@ You can get the application running by running the following commands
 
 
 ## Useful commands
+- kubectl apply -f {filename}
 - kubectl proxy
 - kubectl get deployment synergychat-web -o yaml > web-deployment.yaml
