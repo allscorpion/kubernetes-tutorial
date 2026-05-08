@@ -23,6 +23,7 @@ Then you can run the following commands
 ## Useful commands
 - kubectl get pods
     - use the pod name for the following cmd e.g. synergychat-web-f7b9f96dd-ppqpc
+- kubectl delete pod {podname}
 - kubectl port-forward PODNAME 8080:8080
 - minikube dashboard --port=63840
 - kubectl apply -f {filename}
